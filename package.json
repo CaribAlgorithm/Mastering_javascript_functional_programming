@@ -1,0 +1,15 @@
+{
+  "name": "Mastering_javascript_functional_programming",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node index.js",
+    "start": "node ./dist/index.js",
+    "pretty":"yarn prettier --write  ./*.ts &&yarn prettier --write  ./dist/*.js"
+  },
+  "dependencies": {
+    "prettier": "^1.12.0",
+    "typescript": "^2.8.1"
+  }
+}
